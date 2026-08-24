@@ -272,7 +272,7 @@ console.log("After declaration: " + hoistedLet);
 try {
   console.log(hoistedConst);
 } catch (error) {
-  console.log("const before declaration: " + error.name);
+  console.log("const before declaration : " + error.name);
 }
 
 const hoistedConst = "Now const is initialized";
